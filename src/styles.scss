@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+$gradient1: #d6b588;
+$gradient2: #f8bb8e;
+$gradient3: #ffbe9c;
+$gradient4: #ffc1b5;
+
+.button-1 {
+  display: block;
+  margin: 0 auto;
+  line-height: 28pt;
+  padding: 0 20px;
+  background: $gradient1;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 3px 3px 1px 1px $gradient3, 3px 3px 1px 2px black;
+
+  &:hover {
+    background: $gradient4;
+    color: white;
+    border: 1px solid black;
+  }
+}
+
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
